@@ -749,3 +749,49 @@ form .form-label {
     margin-top: 4px !important;
     margin-bottom: 4px !important;
 }
+
+.calendar-event {
+    border-radius: 4px;
+    padding: 2px 4px;
+    font-size: 0.9em;
+    font-weight: 500;
+}
+
+/* Style the event title */
+.fc-event-title {
+    padding: 2px;
+    white-space: pre-wrap;  /* This allows line breaks */
+}
+
+/* Add some hover effects */
+.fc-event:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+/* Make the time more visible */
+.fc-event-time {
+    font-weight: 500;
+    padding: 2px;
+}
+
+/* Fix for time overlay */
+.fc-event-time {
+    background-color: transparent !important;
+    color: inherit !important;
+}
+
+/* Center the title */
+.fc-toolbar-title {
+    text-align: center;
+    width: 100%;
+}
+
+/* Make sure events are readable */
+.fc-event {
+    padding: 2px 0;
+}
+
+.fc-event-title {
+    padding: 0 2px;
+}
